@@ -193,68 +193,68 @@
                     <div class="h-px bg-[#F2BDFF] flex-1"></div>
                 </div>
 
-                <!-- โซนบัญชีธนาคาร (SCB & กรุงไทย & Wallet) -->
+                <!-- โซนบัญชีธนาคาร (SCB & กรุงไทย & Wallet) ปรับเปลี่ยนเป็นสีโทน FFCDF5 และ F2BDFF ทั้งหมด -->
                 <div class="space-y-4">
                     
                     <!-- บัตร SCB (ไทยพาณิชย์) -->
-                    <div class="virtual-card relative bg-gradient-to-br from-purple-800 to-purple-900 rounded-[24px] p-5 shadow-lg shadow-purple-900/20 overflow-hidden cursor-pointer border border-purple-700/30" onclick="copyText('4391179142', this, 'scb')">
-                        <svg class="absolute -right-6 -bottom-6 w-32 h-32 text-white opacity-10 transform -rotate-12 pointer-events-none" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+                    <div class="virtual-card relative bg-gradient-to-br from-[#FFCDF5] to-[#F2BDFF] rounded-[24px] p-5 shadow-lg shadow-pink-200/50 overflow-hidden cursor-pointer border border-white" onclick="copyText('4391179142', this, 'scb')">
+                        <svg class="absolute -right-6 -bottom-6 w-32 h-32 text-white opacity-20 transform -rotate-12 pointer-events-none" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
                         
                         <div class="relative z-10 flex flex-col gap-4">
                             <div class="flex justify-between items-center">
-                                <div class="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full border border-white/20">
-                                    <span class="text-white font-bold text-sm tracking-wider">SCB</span>
+                                <div class="bg-white/40 backdrop-blur-sm px-3 py-1.5 rounded-full border border-white/50">
+                                    <span class="text-brown-600 font-bold text-sm tracking-wider">SCB</span>
                                 </div>
-                                <button class="scb-btn bg-white text-purple-900 text-[12px] font-bold px-4 py-2 rounded-full flex items-center gap-1.5 shadow-sm pointer-events-none">
+                                <button class="scb-btn bg-white text-brown-600 text-[12px] font-bold px-4 py-2 rounded-full flex items-center gap-1.5 shadow-sm pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
                                     คัดลอก
                                 </button>
                             </div>
                             <div class="mt-2">
-                                <div class="text-cream-50/90 text-[11px] font-medium mb-1 drop-shadow-sm">ไทยพาณิชย์ (ธันย์จิรา)</div>
-                                <div class="text-white font-bold text-[22px] tracking-widest leading-none drop-shadow-md">439-117914-2</div>
+                                <div class="text-brown-600/90 text-[11px] font-medium mb-1 drop-shadow-sm">ไทยพาณิชย์ (ธันย์จิรา)</div>
+                                <div class="text-brown-600 font-bold text-[22px] tracking-widest leading-none drop-shadow-md">439-117914-2</div>
                             </div>
                         </div>
                     </div>
 
                     <!-- บัตร กรุงไทย -->
-                    <div class="virtual-card relative bg-gradient-to-br from-cyan-600 to-cyan-700 rounded-[24px] p-5 shadow-lg shadow-cyan-700/20 overflow-hidden cursor-pointer border border-cyan-500/30" onclick="copyText('7530545558', this, 'ktb')">
-                        <svg class="absolute -right-6 -bottom-6 w-32 h-32 text-white opacity-10 transform -rotate-12 pointer-events-none" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
+                    <div class="virtual-card relative bg-gradient-to-br from-[#FFCDF5] to-[#F2BDFF] rounded-[24px] p-5 shadow-lg shadow-pink-200/50 overflow-hidden cursor-pointer border border-white" onclick="copyText('7530545558', this, 'ktb')">
+                        <svg class="absolute -right-6 -bottom-6 w-32 h-32 text-white opacity-20 transform -rotate-12 pointer-events-none" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
                         
                         <div class="relative z-10 flex flex-col gap-4">
                             <div class="flex justify-between items-center">
-                                <div class="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full border border-white/20">
-                                    <span class="text-white font-bold text-sm tracking-wider">Krungthai</span>
+                                <div class="bg-white/40 backdrop-blur-sm px-3 py-1.5 rounded-full border border-white/50">
+                                    <span class="text-brown-600 font-bold text-sm tracking-wider">Krungthai</span>
                                 </div>
-                                <button class="ktb-btn bg-white text-cyan-700 text-[12px] font-bold px-4 py-2 rounded-full flex items-center gap-1.5 shadow-sm pointer-events-none">
+                                <button class="ktb-btn bg-white text-brown-600 text-[12px] font-bold px-4 py-2 rounded-full flex items-center gap-1.5 shadow-sm pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
                                     คัดลอก
                                 </button>
                             </div>
                             <div class="mt-2">
-                                <div class="text-cream-50/90 text-[11px] font-medium mb-1 drop-shadow-sm">กรุงไทย (ธันย์จิรา)</div>
-                                <div class="text-white font-bold text-[22px] tracking-widest leading-none drop-shadow-md">753-0-54555-8</div>
+                                <div class="text-brown-600/90 text-[11px] font-medium mb-1 drop-shadow-sm">กรุงไทย (ธันย์จิรา)</div>
+                                <div class="text-brown-600 font-bold text-[22px] tracking-widest leading-none drop-shadow-md">753-0-54555-8</div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- บัตร TrueMoney Wallet (ปรับเป็นโทนสีม่วงตามต้องการ) -->
-                    <div class="virtual-card relative bg-gradient-to-br from-purple-600 to-fuchsia-700 rounded-[24px] p-5 shadow-lg shadow-purple-700/20 overflow-hidden cursor-pointer border border-purple-400/30" onclick="copyText('0924708224', this, 'true')">
+                    <!-- บัตร TrueMoney Wallet -->
+                    <div class="virtual-card relative bg-gradient-to-br from-[#FFCDF5] to-[#F2BDFF] rounded-[24px] p-5 shadow-lg shadow-pink-200/50 overflow-hidden cursor-pointer border border-white" onclick="copyText('0924708224', this, 'true')">
                         <svg class="absolute -left-6 -top-6 w-32 h-32 text-white opacity-20 transform rotate-12 pointer-events-none" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg>
 
                         <div class="relative z-10 flex flex-col gap-4">
                             <div class="flex justify-between items-center">
-                                <div class="bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full border border-white/20">
-                                    <span class="text-white font-bold text-sm tracking-wider">TrueMoney Wallet</span>
+                                <div class="bg-white/40 backdrop-blur-sm px-3 py-1.5 rounded-full border border-white/50">
+                                    <span class="text-brown-600 font-bold text-sm tracking-wider">TrueMoney Wallet</span>
                                 </div>
-                                <button class="true-btn bg-white text-purple-700 text-[12px] font-bold px-4 py-2 rounded-full flex items-center gap-1.5 shadow-sm pointer-events-none">
+                                <button class="true-btn bg-white text-brown-600 text-[12px] font-bold px-4 py-2 rounded-full flex items-center gap-1.5 shadow-sm pointer-events-none">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
                                     คัดลอก
                                 </button>
                             </div>
                             <div class="mt-2">
-                                <div class="text-cream-50/90 text-[11px] font-medium mb-1 drop-shadow-sm">วอลเล็ท (ธันย์จิรา)</div>
-                                <div class="text-white font-bold text-[22px] tracking-widest leading-none drop-shadow-md">092-470-8224</div>
+                                <div class="text-brown-600/90 text-[11px] font-medium mb-1 drop-shadow-sm">วอลเล็ท (ธันย์จิรา)</div>
+                                <div class="text-brown-600 font-bold text-[22px] tracking-widest leading-none drop-shadow-md">092-470-8224</div>
                             </div>
                         </div>
                     </div>
@@ -292,10 +292,9 @@
                         </div>
                     </div>
 
-                    <!-- แยกไลน์ออกมาเป็นช่องวงรีเดี่ยวๆ ด้านนอก พร้อมไอคอนแบบอักษร LINE -->
+                    <!-- ช่อง LINE -->
                     <div onclick="copyText('@287bbqap', this, 'line')" class="virtual-card bg-white/90 border border-[#F2BDFF] rounded-full px-4 py-3 flex items-center justify-between shadow-sm cursor-pointer hover:bg-white transition-all">
                         <div class="flex items-center gap-2.5">
-                            <!-- เปลี่ยนไอคอน LINE เป็นแบบตัวอักษร -->
                             <div class="w-8 h-8 bg-purple-500 rounded-full flex items-center justify-center shrink-0 shadow-sm text-white font-bold text-xs tracking-tighter">
                                 LINE
                             </div>
